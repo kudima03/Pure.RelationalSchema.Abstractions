@@ -6,6 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <InternalsVisibleTo Include="Pure.RelationalSchema.HashCodes" />
+  </ItemGroup>
+
   <PropertyGroup>
     <PackageId>Pure.RelationalSchema.Abstractions</PackageId>
     <RootNamespace>Pure.RelationalSchema.Abstractions</RootNamespace>
