@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <InternalsVisibleTo Include="Pure.RelationalSchema.HashCodes" />
+    <InternalsVisibleTo Include="Pure.RelationalSchema" />
   </ItemGroup>
 
   <PropertyGroup>
