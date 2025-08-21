@@ -1,18 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <InternalsVisibleTo Include="Pure.RelationalSchema.HashCodes" />
-    <InternalsVisibleTo Include="Pure.RelationalSchema.HashCodes.Tests" />
-    <InternalsVisibleTo Include="Pure.RelationalSchema" />
-    <InternalsVisibleTo Include="Pure.RelationalSchema.Tests" />
-  </ItemGroup>
-
   <PropertyGroup>
     <PackageId>Pure.RelationalSchema.Abstractions</PackageId>
     <RootNamespace>Pure.RelationalSchema.Abstractions</RootNamespace>
@@ -21,9 +12,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/kudima03/Pure.RelationalSchema.Abstractions</PackageProjectUrl>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Pure.Primitives.Abstractions" Version="4.0.6" />
   </ItemGroup>
-
 </Project>
