@@ -4,5 +4,5 @@ namespace Pure.RelationalSchema.Abstractions.ColumnType;
 
 public interface IColumnType
 {
-    internal IString Name { get; }
+    IString Name { get; }
 }
