@@ -1,11 +1,11 @@
-﻿using Pure.Primitives.Abstractions.String;
+using Pure.Primitives.Abstractions.String;
 using Pure.RelationalSchema.Abstractions.ColumnType;
 
 namespace Pure.RelationalSchema.Abstractions.Column;
 
 public interface IColumn
 {
-    IString Name { get; }
+    public IString Name { get; }
 
-    IColumnType Type { get; }
+    public IColumnType Type { get; }
 }

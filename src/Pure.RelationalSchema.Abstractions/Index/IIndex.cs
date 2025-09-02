@@ -1,11 +1,11 @@
-﻿using Pure.Primitives.Abstractions.Bool;
+using Pure.Primitives.Abstractions.Bool;
 using Pure.RelationalSchema.Abstractions.Column;
 
 namespace Pure.RelationalSchema.Abstractions.Index;
 
 public interface IIndex
 {
-    IBool IsUnique { get; }
+    public IBool IsUnique { get; }
 
-    IEnumerable<IColumn> Columns { get; }
+    public IEnumerable<IColumn> Columns { get; }
 }
