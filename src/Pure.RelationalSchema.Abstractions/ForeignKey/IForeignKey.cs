@@ -7,9 +7,9 @@ public interface IForeignKey
 {
     public ITable ReferencingTable { get; }
 
-    public IColumn ReferencingColumn { get; }
+    public IEnumerable<IColumn> ReferencingColumns { get; }
 
     public ITable ReferencedTable { get; }
 
-    public IColumn ReferencedColumn { get; }
+    public IEnumerable<IColumn> ReferencedColumns { get; }
 }
