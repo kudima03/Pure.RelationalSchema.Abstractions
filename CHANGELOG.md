@@ -6,6 +6,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [1.3.0] — 2026-11-11
+
+### Added
+
+- Now also targets `net11.0`.
+
+### Changed
+
+- Updated `Pure.Primitives.Abstractions` to `4.4.0`.
+- The NuGet package now includes `README.md`.
+
 ## [1.2.0] — 2026-12-01
 
 ### Changed
