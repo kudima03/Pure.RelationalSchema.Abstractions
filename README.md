@@ -40,6 +40,7 @@ All names are expressed as `IString` from `Pure.Primitives.Abstractions`, keepin
 - .NET 8
 - .NET 9
 - .NET 10
+- .NET 11
 
 ## Installation
 
