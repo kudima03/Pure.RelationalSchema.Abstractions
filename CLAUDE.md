@@ -33,7 +33,7 @@ This is an **interfaces-only NuGet library** — no implementations, no tests, n
 
 `IString` and `IBool` come from [`Pure.Primitives.Abstractions`](https://github.com/kudima03/Pure.Primitives.Abstractions) (v4.3.0). All string-typed names flow through `IString` so downstream code stays consistent with the rest of the Pure ecosystem.
 
-**Multi-targeting:** net7.0, net8.0, net9.0, net10.0. All interfaces must remain AOT-compatible (`IsAotCompatible=true`).
+**Multi-targeting:** net7.0, net8.0, net9.0, net10.0, net11.0. All interfaces must remain AOT-compatible (`IsAotCompatible=true`).
 
 **Package validation:** `EnablePackageValidation=true` with `PackageValidationBaselineVersion=1.2.0`. Breaking API changes fail the build.
 
